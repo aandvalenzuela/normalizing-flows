@@ -1,0 +1,13 @@
+Input:C:\Users\Andrea\Downloads\AU\AUexpression7\obama_0.3.png
+Input full path:C:\Users\Andrea\Downloads\AU\AUexpression7\obama_0.3.png
+Camera parameters:233.333,233.333,128,128
+Output HOG:obama_0.3.hog
+Output image:obama_0.3.jpg
+Output aligned directory:obama_0.3_aligned
+Output csv:obama_0.3.csv
+Gaze: 1
+AUs: 1
+Landmarks 2D: 1
+Landmarks 3D: 1
+Pose: 1
+Shape parameters: 1

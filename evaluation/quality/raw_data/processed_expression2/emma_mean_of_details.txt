@@ -1,0 +1,13 @@
+Input:C:\Users\Andrea\Downloads\AU\AUexpression4\emma_mean.png
+Input full path:C:\Users\Andrea\Downloads\AU\AUexpression4\emma_mean.png
+Camera parameters:233.333,233.333,128,128
+Output HOG:emma_mean.hog
+Output image:emma_mean.jpg
+Output aligned directory:emma_mean_aligned
+Output csv:emma_mean.csv
+Gaze: 1
+AUs: 1
+Landmarks 2D: 1
+Landmarks 3D: 1
+Pose: 1
+Shape parameters: 1

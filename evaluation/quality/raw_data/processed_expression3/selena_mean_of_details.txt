@@ -1,0 +1,13 @@
+Input:C:\Users\Andrea\Downloads\AU\AUexpression6\selena_mean.png
+Input full path:C:\Users\Andrea\Downloads\AU\AUexpression6\selena_mean.png
+Camera parameters:233.333,233.333,128,128
+Output HOG:selena_mean.hog
+Output image:selena_mean.jpg
+Output aligned directory:selena_mean_aligned
+Output csv:selena_mean.csv
+Gaze: 1
+AUs: 1
+Landmarks 2D: 1
+Landmarks 3D: 1
+Pose: 1
+Shape parameters: 1

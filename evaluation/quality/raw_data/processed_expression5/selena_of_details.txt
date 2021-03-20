@@ -1,0 +1,13 @@
+Input:C:\Users\Andrea\Downloads\AU\AUexpression10\selena.png
+Input full path:C:\Users\Andrea\Downloads\AU\AUexpression10\selena.png
+Camera parameters:1238.15,1238.15,1413.5,128.5
+Output HOG:selena.hog
+Output image:selena.jpg
+Output aligned directory:selena_aligned
+Output csv:selena.csv
+Gaze: 1
+AUs: 1
+Landmarks 2D: 1
+Landmarks 3D: 1
+Pose: 1
+Shape parameters: 1

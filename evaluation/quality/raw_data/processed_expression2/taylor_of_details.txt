@@ -1,0 +1,13 @@
+Input:C:\Users\Andrea\Downloads\AU\AUexpression4\taylor.png
+Input full path:C:\Users\Andrea\Downloads\AU\AUexpression4\taylor.png
+Camera parameters:1238.15,1238.15,1413.5,128.5
+Output HOG:taylor.hog
+Output image:taylor.jpg
+Output aligned directory:taylor_aligned
+Output csv:taylor.csv
+Gaze: 1
+AUs: 1
+Landmarks 2D: 1
+Landmarks 3D: 1
+Pose: 1
+Shape parameters: 1
