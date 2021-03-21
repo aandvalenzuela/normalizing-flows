@@ -17,9 +17,9 @@ In this work, we proposed the usage of the vector arithmetics used for attribute
 where ```$\mathbf{z}_{\text{expression vector}} = \mathbf{z}_{\text{source input}} - \mathbf{z}_{\text{source mean}}$``` is the expression vector computed as the difference between the image with the original expression that wants to be transferred (source input) and the mean face of the source identity (source mean). The mean face of an identity is defined as a its neutral and frontal (expressionless) face computed as the mean of the vectors encoding the original images in the latent space. As for attribute manipulation, the coefficient α is the one regulating the intensity of such transfer.
 
 ## Results
-
+The following image illustrates the proposed approach for ```α=0.5```:
 ![alt text](https://github.com/aandvalenzuela/normalizing-flows/blob/main/results/equation.png)
-
+The general trend shows that the α range in which the expression transfer is present corresponds to [0.3,0.5]. The transfer for the considered range could be observed in the following images (from 0.3 to 0.5, in steps of 0.02):
 ![alt text](https://github.com/aandvalenzuela/normalizing-flows/blob/main/results/transferring/expression5/emma.png)
 
 ## Evaluation pipeline
