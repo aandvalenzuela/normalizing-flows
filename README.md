@@ -9,17 +9,14 @@ The results can be easily reproduced by using our [Colab notebook](https://colab
 ## Proposed approach
 In this work, we proposed the usage of the vector arithmetics used for attribute manipulation, but for expression transferring between identities. The proposed equation could be mathematically defined as follows:
 
-```
-\begin{equation}\label{proposed_eq}
-\mathbf{x}_{\text{target output}} = \mathbf{z}_{\text{target mean}} + \alpha \cdot \mathbf{z}_{\text{expression vector}},
-\end{equation}
-```
-where ```$\mathbf{z}_{\text{expression vector}} = \mathbf{z}_{\text{source input}} - \mathbf{z}_{\text{source mean}}$``` is the expression vector computed as the difference between the image with the original expression that wants to be transferred (source input) and the mean face of the source identity (source mean). The mean face of an identity is defined as a its neutral and frontal (expressionless) face computed as the mean of the vectors encoding the original images in the latent space. As for attribute manipulation, the coefficient α is the one regulating the intensity of such transfer.
+![alt text](https://github.com/aandvalenzuela/normalizing-flows/blob/main/results/equation.png)
+
+Note that the expression vector is computed as the difference between the image with the original expression that wants to be transferred (source input) and the mean face of the source identity (source mean). The mean face of an identity is defined as a its neutral and frontal (expressionless) face computed as the mean of the vectors encoding the original images in the latent space. As for attribute manipulation, the coefficient α is the one regulating the intensity of such transfer.
 
 ## Results
 The following image illustrates the proposed approach for ```α=0.5```:
 
-![alt text](https://github.com/aandvalenzuela/normalizing-flows/blob/main/results/equation.png)
+![alt text](https://github.com/aandvalenzuela/normalizing-flows/blob/main/results/schema.png)
 The general trend shows that the α range in which the expression transfer is present corresponds to [0.3,0.5]. The transfer for the considered range could be observed in the following images (from 0.3 to 0.5, in steps of 0.02):
 
 ![alt text](https://github.com/aandvalenzuela/normalizing-flows/blob/main/results/transferring/expression5/emma.png)
