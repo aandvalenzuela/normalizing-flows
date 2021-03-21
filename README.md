@@ -18,6 +18,8 @@ where ```$\mathbf{z}_{\text{expression vector}} = \mathbf{z}_{\text{source input
 
 ## Results
 
+![alt text](https://github.com/aandvalenzuela/normalizing-flows/blob/main/results/transferring/expression5/emma.png)
+
 ## Evaluation pipeline
 We also proposed an evaluation pipeline for the generated images in terms of the likeliness of the generated image with respect to the mean of the same identity and to the source identity, and the quality of the expression transfer itself in terms of Action Units (AUs).
 
@@ -28,8 +30,8 @@ This toolkit recognizes facial expressions through detecting both intensity and 
 
 
 ## Repository structure
-The ```data``` folder contains the original data used for the experiments. In concrete, it contains the folder ```expressions``` in which the expressions to be transferred are present, and other folders with aligned facial images of five different identities directly crawled from the Internet.
+The ```data``` folder contains the original data used for the experiments. In concrete, it contains the folder ```expressions``` in which the expressions to be transferred are present, and other folders (```id$_aligned```) with aligned facial images of five different identities directly crawled from the Internet.
 
 The ```results``` directory contains a ```means``` folder with the expressionless images obtained as the average of the original images present in ```data/id$_aligned```. It also contains a ```transferring``` directory with the results of the transfer for some of the expressions present in ```data/expressions``` between the considered identities.
 
-The ```evaluation``` folder contains the ```likeliness``` directory with the .csv files containing the distance score for the generated images with respect to their corresponding source and target means. It also contains a ```quality``` directory with the .csv files containing the analysis of the expressions in terms of intensity of AUs. This last folder also contains the ```raw_data```obtained after processing the generated images with the OpenFace 2.0 toolkit.
+The ```evaluation``` folder contains the ```likeliness``` directory with the .csv files containing the distance score for the generated images with respect to their corresponding source and target means. It also contains a ```quality``` directory with the .csv files containing the analysis of the expressions in terms of intensity of AUs. This last folder also contains the ```raw_data``` obtained after processing the generated images with the OpenFace 2.0 toolkit.
