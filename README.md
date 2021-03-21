@@ -18,8 +18,10 @@ where ```$\mathbf{z}_{\text{expression vector}} = \mathbf{z}_{\text{source input
 
 ## Results
 The following image illustrates the proposed approach for ```α=0.5```:
+
 ![alt text](https://github.com/aandvalenzuela/normalizing-flows/blob/main/results/equation.png)
 The general trend shows that the α range in which the expression transfer is present corresponds to [0.3,0.5]. The transfer for the considered range could be observed in the following images (from 0.3 to 0.5, in steps of 0.02):
+
 ![alt text](https://github.com/aandvalenzuela/normalizing-flows/blob/main/results/transferring/expression5/emma.png)
 
 ## Evaluation pipeline
