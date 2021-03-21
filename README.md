@@ -16,6 +16,8 @@ In this work, we proposed the usage of the vector arithmetics used for attribute
 ```
 where ```$\mathbf{z}_{\text{expression vector}} = \mathbf{z}_{\text{source input}} - \mathbf{z}_{\text{source mean}}$``` is the expression vector computed as the difference between the image with the original expression that wants to be transferred (source input) and the mean face of the source identity (source mean). The mean face of an identity is defined as a its neutral and frontal (expressionless) face computed as the mean of the vectors encoding the original images in the latent space. As for attribute manipulation, the coefficient α is the one regulating the intensity of such transfer.
 
+## Results
+
 ## Evaluation pipeline
 We also proposed an evaluation pipeline for the generated images in terms of the likeliness of the generated image with respect to the mean of the same identity and to the source identity, and the quality of the expression transfer itself in terms of Action Units (AUs).
 
@@ -26,3 +28,8 @@ This toolkit recognizes facial expressions through detecting both intensity and 
 
 
 ## Repository structure
+The ```data``` folder contains the original data used for the experiments. In concrete, it contains the folder ```expressions``` in which the expressions to be transferred are present, and other folders with aligned facial images of five different identities directly crawled from the Internet.
+
+The ```results``` directory contains a ```means``` folder with the expressionless images obtained as the average of the original images present in ```data/id$_aligned```. It also contains a ```transferring``` directory with the results of the transfer for some of the expressions present in ```data/expressions``` between the considered identities.
+
+The ```evaluation``` folder contains the ```likeliness``` directory with the .csv files containing the distance score for the generated images with respect to their corresponding source and target means. It also contains a ```quality``` directory with the .csv files containing the analysis of the expressions in terms of intensity of AUs. This last folder also contains the ```raw_data```obtained after processing the generated images with the OpenFace 2.0 toolkit.
