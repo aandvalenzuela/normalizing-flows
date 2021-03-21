@@ -18,6 +18,8 @@ where ```$\mathbf{z}_{\text{expression vector}} = \mathbf{z}_{\text{source input
 
 ## Results
 
+![alt text](https://github.com/aandvalenzuela/normalizing-flows/blob/main/results/equation.png)
+
 ![alt text](https://github.com/aandvalenzuela/normalizing-flows/blob/main/results/transferring/expression5/emma.png)
 
 ## Evaluation pipeline
