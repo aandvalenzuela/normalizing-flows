@@ -9,7 +9,7 @@ The results can be easily reproduced by using our [Colab notebook](https://colab
 ## Proposed approach
 In this work, we proposed the usage of the vector arithmetics traditionally used for attribute manipulation, but for expression transferring between identities. The proposed equation could be mathematically defined as follows:
 
-![alt text](https://github.com/aandvalenzuela/normalizing-flows/blob/main/results/equation.png)
+![alt text](https://github.com/aandvalenzuela/normalizing-flows/blob/main/results/transformation.png)
 
 Note that the expression vector is computed as the difference between the image with the original expression to be transferred (*source input*) and the mean face of the source identity (*source mean*). The mean face of an identity is defined as a its neutral and frontal (expressionless) face computed as the mean of the vectors encoding the original images in the latent space. As for attribute manipulation, the coefficient *α* is the one regulating the intensity of such transfer.
 
