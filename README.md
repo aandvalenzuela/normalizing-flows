@@ -40,3 +40,7 @@ The ```data``` folder contains the original data used for the experiments. In co
 The ```results``` directory contains a ```means``` folder with the expressionless images obtained as the average of the original images present in ```data/id$_aligned```. It also contains a ```transferring``` directory with the results of the transfer for some of the expressions present in ```data/expressions``` between the considered identities.
 
 The ```evaluation``` folder contains the ```likeliness``` directory with the *.csv* files containing the distance score for the generated images with respect to their corresponding source and target means. It also contains a ```quality``` directory with the *.csv* files containing the analysis of the expressions in terms of intensity of AUs. This last folder also contains the ```raw_data``` obtained after processing the generated images with the *OpenFace 2.0* toolkit.
+
+### More references of interest
+
+* [Generation of Deepfakes using Normalizing Flows](https://repositori.upf.edu/handle/10230/46360).
